@@ -1,6 +1,6 @@
 package log;
 
-import utility.ExtentReport.TestLogger;
+import utility.TestLogger;
 
 /**
  * Created by mrahman on 5/14/17.

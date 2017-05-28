@@ -14,7 +14,7 @@
     <test name = "Ebay Home">
         <classes>
             <!--<class name="home.TestAmazonHome"/>-->
-            <class name="ebayhomepage.Homepageclass"/>
+            <class name="ebaytest.EbayTestHome"/>
         </classes>
     </test>
 

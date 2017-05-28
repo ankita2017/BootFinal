@@ -4,7 +4,7 @@ import base.CommonAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
-import utility.ExtentReport.TestLogger;
+import utility.TestLogger;
 
 /**
  * Created by PIIT_NYA on 5/13/2017.

@@ -7,19 +7,25 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Amazon" />
+        <module name="Amazon2" />
         <module name="Ebay" />
         <module name="Generic" />
+        <module name="MortgageCalculator" />
         <module name="NYP" />
         <module name="Upscalelearning" />
+        <module name="USPSPostal" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Amazon" target="1.8" />
+      <module name="Amazon2" target="1.8" />
       <module name="Ebay" target="1.8" />
       <module name="Generic" target="1.8" />
+      <module name="MortgageCalculator" target="1.8" />
       <module name="NYP" target="1.8" />
       <module name="PntAutomation" target="1.8" />
       <module name="Upscalelearning" target="1.8" />
+      <module name="USPSPostal" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

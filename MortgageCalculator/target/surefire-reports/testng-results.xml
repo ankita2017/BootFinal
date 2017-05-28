@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Extent Report directory: C:\Users\Ankita Singh\IdeaProjects\automation2\automation-march2017\MortgageCalculator\target\surefire-reports\html]]>
+    </line>
+    <line>
+      <![CDATA[Epic: Amazon2Test AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>]]>
+    </line>
+    <line>
+      <![CDATA[Launch local browser Instance]]>
+    </line>
+    <line>
+      <![CDATA[Calculate: calculate]]>
+    </line>
+  </reporter-output>
+  <suite name="Ebay" duration-ms="32101" started-at="2017-05-28T20:41:24Z" finished-at="2017-05-28T20:41:56Z">
+    <groups>
+    </groups>
+    <test name="Mortgage Calculator" duration-ms="32101" started-at="2017-05-28T20:41:24Z" finished-at="2017-05-28T20:41:56Z">
+      <class name="mortgageTest.MortgageTest">
+        <test-method status="PASS" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:mortgageTest.MortgageTest@327471b5]" name="extentSetup" is-config="true" duration-ms="284" started-at="2017-05-28T16:41:24Z" finished-at="2017-05-28T16:41:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6a396c1e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Extent Report directory: C:\Users\Ankita Singh\IdeaProjects\automation2\automation-march2017\MortgageCalculator\target\surefire-reports\html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- extentSetup -->
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:mortgageTest.MortgageTest@327471b5]" name="setUp" is-config="true" duration-ms="16174" started-at="2017-05-28T16:41:24Z" finished-at="2017-05-28T16:41:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[53.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[http://www.mortgagecalculator.org/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:mortgageTest.MortgageTest@327471b5]" name="startExtent" is-config="true" duration-ms="14" started-at="2017-05-28T16:41:40Z" finished-at="2017-05-28T16:41:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void mortgageTest.MortgageTest.callCalculate() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="callCalculate()[pri:0, instance:mortgageTest.MortgageTest@327471b5]" name="callCalculate" duration-ms="14050" started-at="2017-05-28T16:41:40Z" finished-at="2017-05-28T16:41:54Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Epic: Amazon2Test AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>]]>
+            </line>
+            <line>
+              <![CDATA[Launch local browser Instance]]>
+            </line>
+            <line>
+              <![CDATA[Calculate: calculate]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- callCalculate -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:mortgageTest.MortgageTest@327471b5]" name="afterEachTestMethod" is-config="true" duration-ms="1849" started-at="2017-05-28T16:41:54Z" finished-at="2017-05-28T16:41:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=callCalculate status=SUCCESS method=MortgageTest.callCalculate()[pri:0, instance:mortgageTest.MortgageTest@327471b5] output=Epic: Amazon2Test AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:mortgageTest.MortgageTest@327471b5]" name="cleanUp" is-config="true" duration-ms="0" started-at="2017-05-28T16:41:56Z" finished-at="2017-05-28T16:41:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="generateReport()[pri:0, instance:mortgageTest.MortgageTest@327471b5]" name="generateReport" is-config="true" duration-ms="158" started-at="2017-05-28T16:41:56Z" finished-at="2017-05-28T16:41:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+      </class> <!-- mortgageTest.MortgageTest -->
+    </test> <!-- Mortgage Calculator -->
+  </suite> <!-- Ebay -->
+</testng-results>

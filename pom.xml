@@ -14,6 +14,9 @@
         <module>Upscalelearning</module>
         <module>NYP</module>
         <module>Ebay</module>
+        <module>USPSPostal</module>
+        <module>Amazon2</module>
+        <module>MortgageCalculator</module>
     </modules>
 
     <dependencyManagement>

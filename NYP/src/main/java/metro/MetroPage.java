@@ -3,7 +3,7 @@ package metro;
 import base.CommonAPI;
 import homepage.HomePage;
 import org.openqa.selenium.support.PageFactory;
-import utility.ExtentReport.TestLogger;
+import utility.TestLogger;
 
 /**
  * Created by PIIT_NYA on 5/13/2017.
