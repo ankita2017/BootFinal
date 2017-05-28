@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Amazon/Amazon.iml" filepath="$PROJECT_DIR$/Amazon/Amazon.iml" />
       <module fileurl="file://$PROJECT_DIR$/Amazon2/Amazon2.iml" filepath="$PROJECT_DIR$/Amazon2/Amazon2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Ebay/Ebay.iml" filepath="$PROJECT_DIR$/Ebay/Ebay.iml" />
       <module fileurl="file://$PROJECT_DIR$/Generic/Generic.iml" filepath="$PROJECT_DIR$/Generic/Generic.iml" />
       <module fileurl="file://$PROJECT_DIR$/MortgageCalculator/MortgageCalculator.iml" filepath="$PROJECT_DIR$/MortgageCalculator/MortgageCalculator.iml" />
       <module fileurl="file://$PROJECT_DIR$/NYP/NYP.iml" filepath="$PROJECT_DIR$/NYP/NYP.iml" />
       <module fileurl="file://$PROJECT_DIR$/PntAutomation.iml" filepath="$PROJECT_DIR$/PntAutomation.iml" />
       <module fileurl="file://$PROJECT_DIR$/USPSPostal/USPSPostal.iml" filepath="$PROJECT_DIR$/USPSPostal/USPSPostal.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Upscalelearning/Upscalelearning.iml" filepath="$PROJECT_DIR$/Upscalelearning/Upscalelearning.iml" />
     </modules>
   </component>
 </project>

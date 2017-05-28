@@ -6,13 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Amazon" />
         <module name="Amazon2" />
-        <module name="Ebay" />
         <module name="Generic" />
         <module name="MortgageCalculator" />
         <module name="NYP" />
-        <module name="Upscalelearning" />
         <module name="USPSPostal" />
       </profile>
     </annotationProcessing>
