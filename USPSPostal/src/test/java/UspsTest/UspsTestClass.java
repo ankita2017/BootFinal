@@ -22,7 +22,6 @@ public class UspsTestClass extends CommonAPI {
         Thread.sleep(3000);
     }
 
-    @Test
     public void callCalculate() throws InterruptedException {
         CalculatePriceClass cpc = PageFactory.initElements(driver, CalculatePriceClass.class);
         driver.navigate().to("https://postcalc.usps.com/");

@@ -12,8 +12,8 @@
         <module>Generic</module>
         <module>NYP</module>
         <module>USPSPostal</module>
-        <module>Amazon2</module>
         <module>MortgageCalculator</module>
+        <module>AmazonTest</module>
     </modules>
 
     <dependencyManagement>

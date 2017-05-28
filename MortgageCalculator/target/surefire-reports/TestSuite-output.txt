@@ -1,13 +1,13 @@
 Extent Report directory: C:\Users\Ankita Singh\IdeaProjects\automation2\automation-march2017\MortgageCalculator\target\surefire-reports\html
-May 28, 2017 4:41:24 PM com.relevantcodes.extentreports.ExtentReports loadConfig
+May 28, 2017 6:28:34 PM com.relevantcodes.extentreports.ExtentReports loadConfig
 WARNING: Unable to perform report configuration. The file C:\Users\Ankita Singh\IdeaProjects\automation2\automation-march2017\MortgageCalculator\report-config.xml was not found.
-1496004085119	geckodriver	INFO	Listening on 127.0.0.1:22742
-1496004086475	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
-1496004087021	addons.manager	ERROR	startup failed: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIFile.create]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/FileUtils.jsm :: FileUtils_getDir :: line 70"  data: no] Stack trace: FileUtils_getDir()@resource://gre/modules/FileUtils.jsm:70 < FileUtils_getFile()@resource://gre/modules/FileUtils.jsm:42 < validateBlocklist()@resource://gre/modules/AddonManager.jsm:671 < startup()@resource://gre/modules/AddonManager.jsm:834 < startup()@resource://gre/modules/AddonManager.jsm:3129 < observe()@resource://gre/components/addonManager.js:65
-JavaScript error: resource://gre/modules/AddonManager.jsm, line 1657: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
-1496004092438	Marionette	INFO	Listening on port 59377
+1496010515416	geckodriver	INFO	Listening on 127.0.0.1:42958
+1496010516563	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1496010517008	addons.manager	ERJavaScript error: resource://gre/modules/AddonManager.jsm, line 1657: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+ROR	startup failed: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIFile.create]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/FileUtils.jsm :: FileUtils_getDir :: line 70"  data: no] Stack trace: FileUtils_getDir()@resource://gre/modules/FileUtils.jsm:70 < FileUtils_getFile()@resource://gre/modules/FileUtils.jsm:42 < validateBlocklist()@resource://gre/modules/AddonManager.jsm:671 < startup()@resource://gre/modules/AddonManager.jsm:834 < startup()@resource://gre/modules/AddonManager.jsm:3129 < observe()@resource://gre/components/addonManager.js:65
+1496010522559	Marionette	INFO	Listening on port 62721
 JavaScript error: resource://gre/modules/AddonManager.jsm, line 2570: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
-May 28, 2017 4:41:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 28, 2017 6:28:43 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 JavaScript error: resource://gre/modules/FileUtils.jsm, line 70: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIFile.create]
 JavaScript warning: http://www.mortgagecalculator.org/rates-widgets/mortgages/js/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
@@ -15,5 +15,5 @@ Epic: Amazon2Test AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GRE
 Launch local browser Instance
 Calculate: calculate
 JavaScript warning: http://www.mortgagecalculator.org/rates-widgets/mortgages/js/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
-1496004116092	Marionette	INFO	New connections will no longer be accepted
+1496010542705	Marionette	INFO	New connections will no longer be accepted
 It has been called

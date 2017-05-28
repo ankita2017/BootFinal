@@ -11,40 +11,19 @@
       <![CDATA[Launch local browser Instance]]>
     </line>
     <line>
-      <![CDATA[UspsHomeClass: selectmailandship]]>
-    </line>
-    <line>
-      <![CDATA[CalculatePriceClass: select Source]]>
-    </line>
-    <line>
-      <![CDATA[CalculatePriceClass: selectdestination]]>
-    </line>
-    <line>
-      <![CDATA[CalculatePriceClass: select Shipping Date]]>
-    </line>
-    <line>
-      <![CDATA[CalculatePriceClass: selectcheckgt]]>
-    </line>
-    <line>
-      <![CDATA[CalculatePriceClass: selectprice]]>
-    </line>
-    <line>
-      <![CDATA[CalculatePriceClass: set Pounds]]>
-    </line>
-    <line>
-      <![CDATA[CalculatePriceClass: set Largenvelope]]>
+      <![CDATA[UspsHomeClass: select Mailand Ship]]>
     </line>
   </reporter-output>
-  <suite name="USPS" duration-ms="59574" started-at="2017-05-28T16:15:12Z" finished-at="2017-05-28T16:16:11Z">
+  <suite name="USPS" duration-ms="22317" started-at="2017-05-28T22:29:20Z" finished-at="2017-05-28T22:29:42Z">
     <groups>
     </groups>
-    <test name="USPS Home" duration-ms="59574" started-at="2017-05-28T16:15:12Z" finished-at="2017-05-28T16:16:11Z">
+    <test name="USPS Home" duration-ms="22317" started-at="2017-05-28T22:29:20Z" finished-at="2017-05-28T22:29:42Z">
       <class name="UspsTest.UspsTestClass">
-        <test-method status="PASS" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:UspsTest.UspsTestClass@327471b5]" name="extentSetup" is-config="true" duration-ms="331" started-at="2017-05-28T12:15:11Z" finished-at="2017-05-28T12:15:12Z">
+        <test-method status="PASS" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:UspsTest.UspsTestClass@15975490]" name="extentSetup" is-config="true" duration-ms="251" started-at="2017-05-28T18:29:20Z" finished-at="2017-05-28T18:29:20Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@16267862]]>
+                <![CDATA[org.testng.TestRunner@6a396c1e]]>
               </value>
             </param>
           </params>
@@ -54,7 +33,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- extentSetup -->
-        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:UspsTest.UspsTestClass@327471b5]" name="setUp" is-config="true" duration-ms="22435" started-at="2017-05-28T12:15:12Z" finished-at="2017-05-28T12:15:34Z">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:UspsTest.UspsTestClass@15975490]" name="setUp" is-config="true" duration-ms="11913" started-at="2017-05-28T18:29:20Z" finished-at="2017-05-28T18:29:32Z">
           <params>
             <param index="0">
               <value>
@@ -95,18 +74,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:UspsTest.UspsTestClass@327471b5]" name="startExtent" is-config="true" duration-ms="15" started-at="2017-05-28T12:15:34Z" finished-at="2017-05-28T12:15:34Z">
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:UspsTest.UspsTestClass@15975490]" name="startExtent" is-config="true" duration-ms="9" started-at="2017-05-28T18:29:32Z" finished-at="2017-05-28T18:29:32Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void UspsTest.UspsTestClass.callHome()]]>
+                <![CDATA[public void UspsTest.UspsTestClass.callHome() throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method status="PASS" signature="callHome()[pri:0, instance:UspsTest.UspsTestClass@327471b5]" name="callHome" duration-ms="35402" started-at="2017-05-28T12:15:34Z" finished-at="2017-05-28T12:16:09Z">
+        <test-method status="PASS" signature="callHome()[pri:1, instance:UspsTest.UspsTestClass@15975490]" name="callHome" duration-ms="8665" started-at="2017-05-28T18:29:32Z" finished-at="2017-05-28T18:29:41Z">
           <reporter-output>
             <line>
               <![CDATA[Epic: EbayTestHome AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>]]>
@@ -115,47 +94,26 @@
               <![CDATA[Launch local browser Instance]]>
             </line>
             <line>
-              <![CDATA[UspsHomeClass: selectmailandship]]>
-            </line>
-            <line>
-              <![CDATA[CalculatePriceClass: select Source]]>
-            </line>
-            <line>
-              <![CDATA[CalculatePriceClass: selectdestination]]>
-            </line>
-            <line>
-              <![CDATA[CalculatePriceClass: select Shipping Date]]>
-            </line>
-            <line>
-              <![CDATA[CalculatePriceClass: selectcheckgt]]>
-            </line>
-            <line>
-              <![CDATA[CalculatePriceClass: selectprice]]>
-            </line>
-            <line>
-              <![CDATA[CalculatePriceClass: set Pounds]]>
-            </line>
-            <line>
-              <![CDATA[CalculatePriceClass: set Largenvelope]]>
+              <![CDATA[UspsHomeClass: select Mailand Ship]]>
             </line>
           </reporter-output>
         </test-method> <!-- callHome -->
-        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:UspsTest.UspsTestClass@327471b5]" name="afterEachTestMethod" is-config="true" duration-ms="1708" started-at="2017-05-28T12:16:09Z" finished-at="2017-05-28T12:16:11Z">
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:UspsTest.UspsTestClass@15975490]" name="afterEachTestMethod" is-config="true" duration-ms="1713" started-at="2017-05-28T18:29:41Z" finished-at="2017-05-28T18:29:42Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=callHome status=SUCCESS method=UspsTestClass.callHome()[pri:0, instance:UspsTest.UspsTestClass@327471b5] output=Epic: EbayTestHome AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>]]]>
+                <![CDATA[[TestResult name=callHome status=SUCCESS method=UspsTestClass.callHome()[pri:1, instance:UspsTest.UspsTestClass@15975490] output=Epic: EbayTestHome AC:1,2 <a https://peoplentch.atlassian.net/browse/GREEN-7> GREEN-7 </a>]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method status="PASS" signature="cleanUp()[pri:0, instance:UspsTest.UspsTestClass@327471b5]" name="cleanUp" is-config="true" duration-ms="0" started-at="2017-05-28T12:16:11Z" finished-at="2017-05-28T12:16:11Z">
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:UspsTest.UspsTestClass@15975490]" name="cleanUp" is-config="true" duration-ms="1" started-at="2017-05-28T18:29:42Z" finished-at="2017-05-28T18:29:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method status="PASS" signature="generateReport()[pri:0, instance:UspsTest.UspsTestClass@327471b5]" name="generateReport" is-config="true" duration-ms="131" started-at="2017-05-28T12:16:11Z" finished-at="2017-05-28T12:16:11Z">
+        <test-method status="PASS" signature="generateReport()[pri:0, instance:UspsTest.UspsTestClass@15975490]" name="generateReport" is-config="true" duration-ms="89" started-at="2017-05-28T18:29:42Z" finished-at="2017-05-28T18:29:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReport -->

@@ -9,7 +9,9 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/Amazon/pom.xml" />
+        <option value="$PROJECT_DIR$/Amazon2/pom.xml" />
         <option value="$PROJECT_DIR$/Ebay/pom.xml" />
+        <option value="$PROJECT_DIR$/Test/pom.xml" />
         <option value="$PROJECT_DIR$/Upscalelearning/pom.xml" />
       </set>
     </option>
